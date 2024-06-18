@@ -1,0 +1,21 @@
+name: Hello World Workflow
+
+on: 
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  helloworld:
+     runs-on: windows-latest
+     #onprem windows runner:
+     #runs-on:
+     # labels: fhzengitrnr4 
+     steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+      - name: run script
+        run: |
+          write-host "Hello World"
+          nslookup fh-ooe.at
