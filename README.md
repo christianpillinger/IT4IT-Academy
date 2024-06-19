@@ -12,7 +12,6 @@
 ## VS Code Extensions
 - Git Graph
 - GitHub Actions
-- PowerShell
 - Rainbow CSV
 
 
