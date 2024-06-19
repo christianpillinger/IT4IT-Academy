@@ -9,6 +9,13 @@
 > Windows-Terminal `New-Item GitHub -Type Directory` &nbsp;
 
 
+## VS Code Extensions
+- Git Graph
+- GitHub Actions
+- PowerShell
+- Rainbow CSV
+
+
 ## Terminal Befehle
 ```
 New-Item GitHub -Type Directory
